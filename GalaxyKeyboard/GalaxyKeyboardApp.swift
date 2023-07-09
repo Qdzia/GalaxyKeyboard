@@ -2,7 +2,7 @@
 //  GalaxyKeyboardApp.swift
 //  GalaxyKeyboard
 //
-//  Created by Łukasz Kudzia on 09/07/2023.
+//  Created by Łukasz Kudzia on 07/07/2023.
 //
 
 import SwiftUI

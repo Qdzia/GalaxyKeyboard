@@ -7,7 +7,9 @@
 
 import FleksySDK
 
-extension enumEmojiSkinTone: CaseIterable, Identifiable {
+typealias EmojiSkinTone = enumEmojiSkinTone
+
+extension EmojiSkinTone: CaseIterable, Identifiable {
     public var id: UInt {
         self.rawValue
     }

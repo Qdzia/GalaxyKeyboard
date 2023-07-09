@@ -7,36 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1007E8B72A5AFF7E0066CCEC /* GalaxyKeyboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8B62A5AFF7E0066CCEC /* GalaxyKeyboardApp.swift */; };
-		1007E8BB2A5AFF7F0066CCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1007E8BA2A5AFF7F0066CCEC /* Assets.xcassets */; };
-		1007E8CB2A5B01020066CCEC /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8CA2A5B01020066CCEC /* KeyboardViewController.swift */; };
-		1007E8CF2A5B01020066CCEC /* GalaxyKeyboardExt.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1007E8C82A5B01020066CCEC /* GalaxyKeyboardExt.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		1007E8D62A5B01220066CCEC /* FleksySDK in Frameworks */ = {isa = PBXBuildFile; productRef = 1007E8D52A5B01220066CCEC /* FleksySDK */; };
-		1007E8DA2A5B03610066CCEC /* ConfigViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8D92A5B03610066CCEC /* ConfigViewModel.swift */; };
-		1007E8DC2A5B03840066CCEC /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8DB2A5B03840066CCEC /* ConfigView.swift */; };
-		1007E8DF2A5B13870066CCEC /* KeyboardTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8DE2A5B13870066CCEC /* KeyboardTheme.swift */; };
-		1007E8E12A5B13A20066CCEC /* EnumEmojiSkinTone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8E02A5B13A20066CCEC /* EnumEmojiSkinTone.swift */; };
-		1007E8E42A5B15F00066CCEC /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8E32A5B15F00066CCEC /* PlaygroundView.swift */; };
+		1007E8F12A5B25D30066CCEC /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8F02A5B25D30066CCEC /* ConfigView.swift */; };
+		1007E8F32A5B25DC0066CCEC /* ConfigViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8F22A5B25DC0066CCEC /* ConfigViewModel.swift */; };
+		1007E8F52A5B26030066CCEC /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8F42A5B26030066CCEC /* PlaygroundView.swift */; };
+		1007E8F72A5B26240066CCEC /* KeyboardTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8F62A5B26240066CCEC /* KeyboardTheme.swift */; };
+		1007E8FA2A5B26440066CCEC /* EnumEmojiSkinTone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8F92A5B26440066CCEC /* EnumEmojiSkinTone.swift */; };
+		1007E8FC2A5B26740066CCEC /* ConfigStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8FB2A5B26740066CCEC /* ConfigStore.swift */; };
+		1007E8FE2A5B27120066CCEC /* ConfigStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8FB2A5B26740066CCEC /* ConfigStore.swift */; };
+		1007E8FF2A5B27170066CCEC /* KeyboardTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8F62A5B26240066CCEC /* KeyboardTheme.swift */; };
+		1007E9002A5B271A0066CCEC /* EnumEmojiSkinTone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8F92A5B26440066CCEC /* EnumEmojiSkinTone.swift */; };
+		1007E9022A5B2ADC0066CCEC /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E9012A5B2ADC0066CCEC /* Themes.swift */; };
+		10BA5ECF2A585F3C00809FB1 /* GalaxyKeyboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BA5ECE2A585F3C00809FB1 /* GalaxyKeyboardApp.swift */; };
+		10BA5ED32A585F3D00809FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10BA5ED22A585F3D00809FB1 /* Assets.xcassets */; };
+		10BA5EE02A585F3D00809FB1 /* GalaxyKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BA5EDF2A585F3D00809FB1 /* GalaxyKeyboardTests.swift */; };
+		10BA5EEA2A585F3D00809FB1 /* GalaxyKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BA5EE92A585F3D00809FB1 /* GalaxyKeyboardUITests.swift */; };
+		10BA5EEC2A585F3D00809FB1 /* GalaxyKeyboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BA5EEB2A585F3D00809FB1 /* GalaxyKeyboardUITestsLaunchTests.swift */; };
+		10BA5EFF2A58601B00809FB1 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BA5EFE2A58601B00809FB1 /* KeyboardViewController.swift */; };
+		10BA5F032A58601B00809FB1 /* GalaxyKeyboardExt.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 10BA5EFC2A58601B00809FB1 /* GalaxyKeyboardExt.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		10BA5F0A2A58606200809FB1 /* FleksySDK in Frameworks */ = {isa = PBXBuildFile; productRef = 10BA5F092A58606200809FB1 /* FleksySDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1007E8CD2A5B01020066CCEC /* PBXContainerItemProxy */ = {
+		10BA5EDC2A585F3D00809FB1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1007E8AB2A5AFF7E0066CCEC /* Project object */;
+			containerPortal = 10BA5EC32A585F3C00809FB1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1007E8C72A5B01020066CCEC;
+			remoteGlobalIDString = 10BA5ECA2A585F3C00809FB1;
+			remoteInfo = GalaxyKeyboard;
+		};
+		10BA5EE62A585F3D00809FB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10BA5EC32A585F3C00809FB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10BA5ECA2A585F3C00809FB1;
+			remoteInfo = GalaxyKeyboard;
+		};
+		10BA5F012A58601B00809FB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10BA5EC32A585F3C00809FB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10BA5EFB2A58601B00809FB1;
 			remoteInfo = GalaxyKeyboardExt;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1007E8D32A5B01020066CCEC /* Embed Foundation Extensions */ = {
+		10BA5F072A58601B00809FB1 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				1007E8CF2A5B01020066CCEC /* GalaxyKeyboardExt.appex in Embed Foundation Extensions */,
+				10BA5F032A58601B00809FB1 /* GalaxyKeyboardExt.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,29 +66,52 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1007E8B32A5AFF7E0066CCEC /* GalaxyKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalaxyKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1007E8B62A5AFF7E0066CCEC /* GalaxyKeyboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalaxyKeyboardApp.swift; sourceTree = "<group>"; };
-		1007E8BA2A5AFF7F0066CCEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1007E8C82A5B01020066CCEC /* GalaxyKeyboardExt.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GalaxyKeyboardExt.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		1007E8CA2A5B01020066CCEC /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
-		1007E8CC2A5B01020066CCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1007E8D92A5B03610066CCEC /* ConfigViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewModel.swift; sourceTree = "<group>"; };
-		1007E8DB2A5B03840066CCEC /* ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigView.swift; sourceTree = "<group>"; };
-		1007E8DE2A5B13870066CCEC /* KeyboardTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardTheme.swift; sourceTree = "<group>"; };
-		1007E8E02A5B13A20066CCEC /* EnumEmojiSkinTone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumEmojiSkinTone.swift; sourceTree = "<group>"; };
-		1007E8E32A5B15F00066CCEC /* PlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundView.swift; sourceTree = "<group>"; };
+		1007E8F02A5B25D30066CCEC /* ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigView.swift; sourceTree = "<group>"; };
+		1007E8F22A5B25DC0066CCEC /* ConfigViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewModel.swift; sourceTree = "<group>"; };
+		1007E8F42A5B26030066CCEC /* PlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundView.swift; sourceTree = "<group>"; };
+		1007E8F62A5B26240066CCEC /* KeyboardTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardTheme.swift; sourceTree = "<group>"; };
+		1007E8F92A5B26440066CCEC /* EnumEmojiSkinTone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumEmojiSkinTone.swift; sourceTree = "<group>"; };
+		1007E8FB2A5B26740066CCEC /* ConfigStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigStore.swift; sourceTree = "<group>"; };
+		1007E9012A5B2ADC0066CCEC /* Themes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
+		10BA5ECB2A585F3C00809FB1 /* GalaxyKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalaxyKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10BA5ECE2A585F3C00809FB1 /* GalaxyKeyboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalaxyKeyboardApp.swift; sourceTree = "<group>"; };
+		10BA5ED22A585F3D00809FB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10BA5EDB2A585F3D00809FB1 /* GalaxyKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GalaxyKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10BA5EDF2A585F3D00809FB1 /* GalaxyKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalaxyKeyboardTests.swift; sourceTree = "<group>"; };
+		10BA5EE52A585F3D00809FB1 /* GalaxyKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GalaxyKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10BA5EE92A585F3D00809FB1 /* GalaxyKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalaxyKeyboardUITests.swift; sourceTree = "<group>"; };
+		10BA5EEB2A585F3D00809FB1 /* GalaxyKeyboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalaxyKeyboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		10BA5EFC2A58601B00809FB1 /* GalaxyKeyboardExt.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GalaxyKeyboardExt.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		10BA5EFE2A58601B00809FB1 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		10BA5F002A58601B00809FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10BA5F0E2A588F8400809FB1 /* GalaxyKeyboardExt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GalaxyKeyboardExt.entitlements; sourceTree = "<group>"; };
+		10BA5F0F2A588FDD00809FB1 /* GalaxyKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GalaxyKeyboard.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1007E8B02A5AFF7E0066CCEC /* Frameworks */ = {
+		10BA5EC82A585F3C00809FB1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1007E8D62A5B01220066CCEC /* FleksySDK in Frameworks */,
+				10BA5F0A2A58606200809FB1 /* FleksySDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1007E8C52A5B01020066CCEC /* Frameworks */ = {
+		10BA5ED82A585F3D00809FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10BA5EE22A585F3D00809FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10BA5EF92A58601B00809FB1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,111 +121,180 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1007E8AA2A5AFF7E0066CCEC = {
+		1007E8ED2A5B259D0066CCEC /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				1007E8B52A5AFF7E0066CCEC /* GalaxyKeyboard */,
-				1007E8C92A5B01020066CCEC /* GalaxyKeyboardExt */,
-				1007E8B42A5AFF7E0066CCEC /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		1007E8B42A5AFF7E0066CCEC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1007E8B32A5AFF7E0066CCEC /* GalaxyKeyboard.app */,
-				1007E8C82A5B01020066CCEC /* GalaxyKeyboardExt.appex */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1007E8B52A5AFF7E0066CCEC /* GalaxyKeyboard */ = {
-			isa = PBXGroup;
-			children = (
-				1007E8DD2A5B137E0066CCEC /* Utils */,
-				1007E8D72A5B02E40066CCEC /* Screens */,
-				1007E8B62A5AFF7E0066CCEC /* GalaxyKeyboardApp.swift */,
-				1007E8BA2A5AFF7F0066CCEC /* Assets.xcassets */,
-			);
-			path = GalaxyKeyboard;
-			sourceTree = "<group>";
-		};
-		1007E8C92A5B01020066CCEC /* GalaxyKeyboardExt */ = {
-			isa = PBXGroup;
-			children = (
-				1007E8CA2A5B01020066CCEC /* KeyboardViewController.swift */,
-				1007E8CC2A5B01020066CCEC /* Info.plist */,
-			);
-			path = GalaxyKeyboardExt;
-			sourceTree = "<group>";
-		};
-		1007E8D72A5B02E40066CCEC /* Screens */ = {
-			isa = PBXGroup;
-			children = (
-				1007E8E22A5B15D20066CCEC /* Playground */,
-				1007E8D82A5B02F50066CCEC /* Config */,
+				1007E8EF2A5B25BD0066CCEC /* Playground */,
+				1007E8EE2A5B25AE0066CCEC /* Config */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
 		};
-		1007E8D82A5B02F50066CCEC /* Config */ = {
+		1007E8EE2A5B25AE0066CCEC /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				1007E8D92A5B03610066CCEC /* ConfigViewModel.swift */,
-				1007E8DB2A5B03840066CCEC /* ConfigView.swift */,
+				1007E8F02A5B25D30066CCEC /* ConfigView.swift */,
+				1007E8F22A5B25DC0066CCEC /* ConfigViewModel.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
 		};
-		1007E8DD2A5B137E0066CCEC /* Utils */ = {
+		1007E8EF2A5B25BD0066CCEC /* Playground */ = {
 			isa = PBXGroup;
 			children = (
-				1007E8DE2A5B13870066CCEC /* KeyboardTheme.swift */,
-				1007E8E02A5B13A20066CCEC /* EnumEmojiSkinTone.swift */,
+				1007E8F42A5B26030066CCEC /* PlaygroundView.swift */,
+			);
+			path = Playground;
+			sourceTree = "<group>";
+		};
+		1007E8F82A5B26390066CCEC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1007E8F62A5B26240066CCEC /* KeyboardTheme.swift */,
+				1007E8F92A5B26440066CCEC /* EnumEmojiSkinTone.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		1007E8E22A5B15D20066CCEC /* Playground */ = {
+		1007E8FD2A5B26800066CCEC /* Store */ = {
 			isa = PBXGroup;
 			children = (
-				1007E8E32A5B15F00066CCEC /* PlaygroundView.swift */,
+				1007E8FB2A5B26740066CCEC /* ConfigStore.swift */,
 			);
-			path = Playground;
+			path = Store;
+			sourceTree = "<group>";
+		};
+		10BA5EC22A585F3C00809FB1 = {
+			isa = PBXGroup;
+			children = (
+				10BA5ECD2A585F3C00809FB1 /* GalaxyKeyboard */,
+				10BA5EDE2A585F3D00809FB1 /* GalaxyKeyboardTests */,
+				10BA5EE82A585F3D00809FB1 /* GalaxyKeyboardUITests */,
+				10BA5EFD2A58601B00809FB1 /* GalaxyKeyboardExt */,
+				10BA5ECC2A585F3C00809FB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10BA5ECC2A585F3C00809FB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10BA5ECB2A585F3C00809FB1 /* GalaxyKeyboard.app */,
+				10BA5EDB2A585F3D00809FB1 /* GalaxyKeyboardTests.xctest */,
+				10BA5EE52A585F3D00809FB1 /* GalaxyKeyboardUITests.xctest */,
+				10BA5EFC2A58601B00809FB1 /* GalaxyKeyboardExt.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10BA5ECD2A585F3C00809FB1 /* GalaxyKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1007E8FD2A5B26800066CCEC /* Store */,
+				1007E8F82A5B26390066CCEC /* Utils */,
+				1007E8ED2A5B259D0066CCEC /* Screens */,
+				10BA5F0F2A588FDD00809FB1 /* GalaxyKeyboard.entitlements */,
+				10BA5ECE2A585F3C00809FB1 /* GalaxyKeyboardApp.swift */,
+				10BA5ED22A585F3D00809FB1 /* Assets.xcassets */,
+			);
+			path = GalaxyKeyboard;
+			sourceTree = "<group>";
+		};
+		10BA5EDE2A585F3D00809FB1 /* GalaxyKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				10BA5EDF2A585F3D00809FB1 /* GalaxyKeyboardTests.swift */,
+			);
+			path = GalaxyKeyboardTests;
+			sourceTree = "<group>";
+		};
+		10BA5EE82A585F3D00809FB1 /* GalaxyKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10BA5EE92A585F3D00809FB1 /* GalaxyKeyboardUITests.swift */,
+				10BA5EEB2A585F3D00809FB1 /* GalaxyKeyboardUITestsLaunchTests.swift */,
+			);
+			path = GalaxyKeyboardUITests;
+			sourceTree = "<group>";
+		};
+		10BA5EFD2A58601B00809FB1 /* GalaxyKeyboardExt */ = {
+			isa = PBXGroup;
+			children = (
+				10BA5F0E2A588F8400809FB1 /* GalaxyKeyboardExt.entitlements */,
+				10BA5EFE2A58601B00809FB1 /* KeyboardViewController.swift */,
+				10BA5F002A58601B00809FB1 /* Info.plist */,
+				1007E9012A5B2ADC0066CCEC /* Themes.swift */,
+			);
+			path = GalaxyKeyboardExt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1007E8B22A5AFF7E0066CCEC /* GalaxyKeyboard */ = {
+		10BA5ECA2A585F3C00809FB1 /* GalaxyKeyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1007E8C12A5AFF7F0066CCEC /* Build configuration list for PBXNativeTarget "GalaxyKeyboard" */;
+			buildConfigurationList = 10BA5EEF2A585F3D00809FB1 /* Build configuration list for PBXNativeTarget "GalaxyKeyboard" */;
 			buildPhases = (
-				1007E8AF2A5AFF7E0066CCEC /* Sources */,
-				1007E8B02A5AFF7E0066CCEC /* Frameworks */,
-				1007E8B12A5AFF7E0066CCEC /* Resources */,
-				1007E8D32A5B01020066CCEC /* Embed Foundation Extensions */,
+				10BA5EC72A585F3C00809FB1 /* Sources */,
+				10BA5EC82A585F3C00809FB1 /* Frameworks */,
+				10BA5EC92A585F3C00809FB1 /* Resources */,
+				10BA5F072A58601B00809FB1 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1007E8CE2A5B01020066CCEC /* PBXTargetDependency */,
+				10BA5F022A58601B00809FB1 /* PBXTargetDependency */,
 			);
 			name = GalaxyKeyboard;
 			packageProductDependencies = (
-				1007E8D52A5B01220066CCEC /* FleksySDK */,
+				10BA5F092A58606200809FB1 /* FleksySDK */,
 			);
 			productName = GalaxyKeyboard;
-			productReference = 1007E8B32A5AFF7E0066CCEC /* GalaxyKeyboard.app */;
+			productReference = 10BA5ECB2A585F3C00809FB1 /* GalaxyKeyboard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1007E8C72A5B01020066CCEC /* GalaxyKeyboardExt */ = {
+		10BA5EDA2A585F3D00809FB1 /* GalaxyKeyboardTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1007E8D02A5B01020066CCEC /* Build configuration list for PBXNativeTarget "GalaxyKeyboardExt" */;
+			buildConfigurationList = 10BA5EF22A585F3D00809FB1 /* Build configuration list for PBXNativeTarget "GalaxyKeyboardTests" */;
 			buildPhases = (
-				1007E8C42A5B01020066CCEC /* Sources */,
-				1007E8C52A5B01020066CCEC /* Frameworks */,
-				1007E8C62A5B01020066CCEC /* Resources */,
+				10BA5ED72A585F3D00809FB1 /* Sources */,
+				10BA5ED82A585F3D00809FB1 /* Frameworks */,
+				10BA5ED92A585F3D00809FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10BA5EDD2A585F3D00809FB1 /* PBXTargetDependency */,
+			);
+			name = GalaxyKeyboardTests;
+			productName = GalaxyKeyboardTests;
+			productReference = 10BA5EDB2A585F3D00809FB1 /* GalaxyKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10BA5EE42A585F3D00809FB1 /* GalaxyKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10BA5EF52A585F3D00809FB1 /* Build configuration list for PBXNativeTarget "GalaxyKeyboardUITests" */;
+			buildPhases = (
+				10BA5EE12A585F3D00809FB1 /* Sources */,
+				10BA5EE22A585F3D00809FB1 /* Frameworks */,
+				10BA5EE32A585F3D00809FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10BA5EE72A585F3D00809FB1 /* PBXTargetDependency */,
+			);
+			name = GalaxyKeyboardUITests;
+			productName = GalaxyKeyboardUITests;
+			productReference = 10BA5EE52A585F3D00809FB1 /* GalaxyKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		10BA5EFB2A58601B00809FB1 /* GalaxyKeyboardExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10BA5F042A58601B00809FB1 /* Build configuration list for PBXNativeTarget "GalaxyKeyboardExt" */;
+			buildPhases = (
+				10BA5EF82A58601B00809FB1 /* Sources */,
+				10BA5EF92A58601B00809FB1 /* Frameworks */,
+				10BA5EFA2A58601B00809FB1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -188,28 +302,36 @@
 			);
 			name = GalaxyKeyboardExt;
 			productName = GalaxyKeyboardExt;
-			productReference = 1007E8C82A5B01020066CCEC /* GalaxyKeyboardExt.appex */;
+			productReference = 10BA5EFC2A58601B00809FB1 /* GalaxyKeyboardExt.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1007E8AB2A5AFF7E0066CCEC /* Project object */ = {
+		10BA5EC32A585F3C00809FB1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					1007E8B22A5AFF7E0066CCEC = {
+					10BA5ECA2A585F3C00809FB1 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
-					1007E8C72A5B01020066CCEC = {
+					10BA5EDA2A585F3D00809FB1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 10BA5ECA2A585F3C00809FB1;
+					};
+					10BA5EE42A585F3D00809FB1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 10BA5ECA2A585F3C00809FB1;
+					};
+					10BA5EFB2A58601B00809FB1 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 1007E8AE2A5AFF7E0066CCEC /* Build configuration list for PBXProject "GalaxyKeyboard" */;
+			buildConfigurationList = 10BA5EC62A585F3C00809FB1 /* Build configuration list for PBXProject "GalaxyKeyboard" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,30 +339,46 @@
 				en,
 				Base,
 			);
-			mainGroup = 1007E8AA2A5AFF7E0066CCEC;
+			mainGroup = 10BA5EC22A585F3C00809FB1;
 			packageReferences = (
-				1007E8D42A5B01220066CCEC /* XCRemoteSwiftPackageReference "FleksySDK-iOS" */,
+				10BA5F082A58606200809FB1 /* XCRemoteSwiftPackageReference "FleksySDK-iOS" */,
 			);
-			productRefGroup = 1007E8B42A5AFF7E0066CCEC /* Products */;
+			productRefGroup = 10BA5ECC2A585F3C00809FB1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1007E8B22A5AFF7E0066CCEC /* GalaxyKeyboard */,
-				1007E8C72A5B01020066CCEC /* GalaxyKeyboardExt */,
+				10BA5ECA2A585F3C00809FB1 /* GalaxyKeyboard */,
+				10BA5EDA2A585F3D00809FB1 /* GalaxyKeyboardTests */,
+				10BA5EE42A585F3D00809FB1 /* GalaxyKeyboardUITests */,
+				10BA5EFB2A58601B00809FB1 /* GalaxyKeyboardExt */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1007E8B12A5AFF7E0066CCEC /* Resources */ = {
+		10BA5EC92A585F3C00809FB1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1007E8BB2A5AFF7F0066CCEC /* Assets.xcassets in Resources */,
+				10BA5ED32A585F3D00809FB1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1007E8C62A5B01020066CCEC /* Resources */ = {
+		10BA5ED92A585F3D00809FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10BA5EE32A585F3D00809FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10BA5EFA2A58601B00809FB1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -250,39 +388,71 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1007E8AF2A5AFF7E0066CCEC /* Sources */ = {
+		10BA5EC72A585F3C00809FB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1007E8DC2A5B03840066CCEC /* ConfigView.swift in Sources */,
-				1007E8E42A5B15F00066CCEC /* PlaygroundView.swift in Sources */,
-				1007E8DA2A5B03610066CCEC /* ConfigViewModel.swift in Sources */,
-				1007E8DF2A5B13870066CCEC /* KeyboardTheme.swift in Sources */,
-				1007E8E12A5B13A20066CCEC /* EnumEmojiSkinTone.swift in Sources */,
-				1007E8B72A5AFF7E0066CCEC /* GalaxyKeyboardApp.swift in Sources */,
+				1007E8F72A5B26240066CCEC /* KeyboardTheme.swift in Sources */,
+				1007E8F12A5B25D30066CCEC /* ConfigView.swift in Sources */,
+				1007E8F52A5B26030066CCEC /* PlaygroundView.swift in Sources */,
+				1007E8FC2A5B26740066CCEC /* ConfigStore.swift in Sources */,
+				1007E8F32A5B25DC0066CCEC /* ConfigViewModel.swift in Sources */,
+				1007E8FA2A5B26440066CCEC /* EnumEmojiSkinTone.swift in Sources */,
+				10BA5ECF2A585F3C00809FB1 /* GalaxyKeyboardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1007E8C42A5B01020066CCEC /* Sources */ = {
+		10BA5ED72A585F3D00809FB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1007E8CB2A5B01020066CCEC /* KeyboardViewController.swift in Sources */,
+				10BA5EE02A585F3D00809FB1 /* GalaxyKeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10BA5EE12A585F3D00809FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BA5EEA2A585F3D00809FB1 /* GalaxyKeyboardUITests.swift in Sources */,
+				10BA5EEC2A585F3D00809FB1 /* GalaxyKeyboardUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10BA5EF82A58601B00809FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1007E8FE2A5B27120066CCEC /* ConfigStore.swift in Sources */,
+				1007E9022A5B2ADC0066CCEC /* Themes.swift in Sources */,
+				10BA5EFF2A58601B00809FB1 /* KeyboardViewController.swift in Sources */,
+				1007E8FF2A5B27170066CCEC /* KeyboardTheme.swift in Sources */,
+				1007E9002A5B271A0066CCEC /* EnumEmojiSkinTone.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1007E8CE2A5B01020066CCEC /* PBXTargetDependency */ = {
+		10BA5EDD2A585F3D00809FB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1007E8C72A5B01020066CCEC /* GalaxyKeyboardExt */;
-			targetProxy = 1007E8CD2A5B01020066CCEC /* PBXContainerItemProxy */;
+			target = 10BA5ECA2A585F3C00809FB1 /* GalaxyKeyboard */;
+			targetProxy = 10BA5EDC2A585F3D00809FB1 /* PBXContainerItemProxy */;
+		};
+		10BA5EE72A585F3D00809FB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10BA5ECA2A585F3C00809FB1 /* GalaxyKeyboard */;
+			targetProxy = 10BA5EE62A585F3D00809FB1 /* PBXContainerItemProxy */;
+		};
+		10BA5F022A58601B00809FB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10BA5EFB2A58601B00809FB1 /* GalaxyKeyboardExt */;
+			targetProxy = 10BA5F012A58601B00809FB1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1007E8BF2A5AFF7F0066CCEC /* Debug */ = {
+		10BA5EED2A585F3D00809FB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -342,7 +512,7 @@
 			};
 			name = Debug;
 		};
-		1007E8C02A5AFF7F0066CCEC /* Release */ = {
+		10BA5EEE2A585F3D00809FB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -396,15 +566,17 @@
 			};
 			name = Release;
 		};
-		1007E8C22A5AFF7F0066CCEC /* Debug */ = {
+		10BA5EF02A585F3D00809FB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GalaxyKeyboard/GalaxyKeyboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = ZNA2T8MA7Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -425,15 +597,17 @@
 			};
 			name = Debug;
 		};
-		1007E8C32A5AFF7F0066CCEC /* Release */ = {
+		10BA5EF12A585F3D00809FB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GalaxyKeyboard/GalaxyKeyboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = ZNA2T8MA7Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -454,11 +628,85 @@
 			};
 			name = Release;
 		};
-		1007E8D12A5B01020066CCEC /* Debug */ = {
+		10BA5EF32A585F3D00809FB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qdzia.GalaxyKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GalaxyKeyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GalaxyKeyboard";
+			};
+			name = Debug;
+		};
+		10BA5EF42A585F3D00809FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qdzia.GalaxyKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GalaxyKeyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GalaxyKeyboard";
+			};
+			name = Release;
+		};
+		10BA5EF62A585F3D00809FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qdzia.GalaxyKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GalaxyKeyboard;
+			};
+			name = Debug;
+		};
+		10BA5EF72A585F3D00809FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qdzia.GalaxyKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GalaxyKeyboard;
+			};
+			name = Release;
+		};
+		10BA5F052A58601B00809FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = GalaxyKeyboardExt/GalaxyKeyboardExt.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GalaxyKeyboardExt/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = GalaxyKeyboardExt;
@@ -478,11 +726,13 @@
 			};
 			name = Debug;
 		};
-		1007E8D22A5B01020066CCEC /* Release */ = {
+		10BA5F062A58601B00809FB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = GalaxyKeyboardExt/GalaxyKeyboardExt.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GalaxyKeyboardExt/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = GalaxyKeyboardExt;
@@ -505,29 +755,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1007E8AE2A5AFF7E0066CCEC /* Build configuration list for PBXProject "GalaxyKeyboard" */ = {
+		10BA5EC62A585F3C00809FB1 /* Build configuration list for PBXProject "GalaxyKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1007E8BF2A5AFF7F0066CCEC /* Debug */,
-				1007E8C02A5AFF7F0066CCEC /* Release */,
+				10BA5EED2A585F3D00809FB1 /* Debug */,
+				10BA5EEE2A585F3D00809FB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1007E8C12A5AFF7F0066CCEC /* Build configuration list for PBXNativeTarget "GalaxyKeyboard" */ = {
+		10BA5EEF2A585F3D00809FB1 /* Build configuration list for PBXNativeTarget "GalaxyKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1007E8C22A5AFF7F0066CCEC /* Debug */,
-				1007E8C32A5AFF7F0066CCEC /* Release */,
+				10BA5EF02A585F3D00809FB1 /* Debug */,
+				10BA5EF12A585F3D00809FB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1007E8D02A5B01020066CCEC /* Build configuration list for PBXNativeTarget "GalaxyKeyboardExt" */ = {
+		10BA5EF22A585F3D00809FB1 /* Build configuration list for PBXNativeTarget "GalaxyKeyboardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1007E8D12A5B01020066CCEC /* Debug */,
-				1007E8D22A5B01020066CCEC /* Release */,
+				10BA5EF32A585F3D00809FB1 /* Debug */,
+				10BA5EF42A585F3D00809FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10BA5EF52A585F3D00809FB1 /* Build configuration list for PBXNativeTarget "GalaxyKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10BA5EF62A585F3D00809FB1 /* Debug */,
+				10BA5EF72A585F3D00809FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10BA5F042A58601B00809FB1 /* Build configuration list for PBXNativeTarget "GalaxyKeyboardExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10BA5F052A58601B00809FB1 /* Debug */,
+				10BA5F062A58601B00809FB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -535,7 +803,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1007E8D42A5B01220066CCEC /* XCRemoteSwiftPackageReference "FleksySDK-iOS" */ = {
+		10BA5F082A58606200809FB1 /* XCRemoteSwiftPackageReference "FleksySDK-iOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/FleksySDK/FleksySDK-iOS";
 			requirement = {
@@ -546,12 +814,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1007E8D52A5B01220066CCEC /* FleksySDK */ = {
+		10BA5F092A58606200809FB1 /* FleksySDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1007E8D42A5B01220066CCEC /* XCRemoteSwiftPackageReference "FleksySDK-iOS" */;
+			package = 10BA5F082A58606200809FB1 /* XCRemoteSwiftPackageReference "FleksySDK-iOS" */;
 			productName = FleksySDK;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 1007E8AB2A5AFF7E0066CCEC /* Project object */;
+	rootObject = 10BA5EC32A585F3C00809FB1 /* Project object */;
 }

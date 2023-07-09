@@ -8,6 +8,20 @@
 import FleksySDK
 
 @MainActor class ConfigViewModel: ObservableObject {
-    @Published var selectedSkinTone: enumEmojiSkinTone = .emojiSkinTone_Neutral
-    @Published var selectedTheme: KeyboardTheme = .base
+    @Published var selectedSkinTone: EmojiSkinTone {
+        didSet { configStore.emojiSkinTone = selectedSkinTone }
+    }
+    
+    @Published var selectedTheme: KeyboardTheme {
+        didSet { configStore.theme = selectedTheme }
+    }
+    
+    private var configStore: ConfigStore
+    
+    init() {
+        let store = UserDefaultConfigStore()
+        selectedSkinTone = store.emojiSkinTone
+        selectedTheme = store.theme
+        configStore = store
+    }
 }
