@@ -16,6 +16,7 @@
 		1007E8DC2A5B03840066CCEC /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8DB2A5B03840066CCEC /* ConfigView.swift */; };
 		1007E8DF2A5B13870066CCEC /* KeyboardTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8DE2A5B13870066CCEC /* KeyboardTheme.swift */; };
 		1007E8E12A5B13A20066CCEC /* EnumEmojiSkinTone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8E02A5B13A20066CCEC /* EnumEmojiSkinTone.swift */; };
+		1007E8E42A5B15F00066CCEC /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8E32A5B15F00066CCEC /* PlaygroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		1007E8DB2A5B03840066CCEC /* ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigView.swift; sourceTree = "<group>"; };
 		1007E8DE2A5B13870066CCEC /* KeyboardTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardTheme.swift; sourceTree = "<group>"; };
 		1007E8E02A5B13A20066CCEC /* EnumEmojiSkinTone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumEmojiSkinTone.swift; sourceTree = "<group>"; };
+		1007E8E32A5B15F00066CCEC /* PlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		1007E8D72A5B02E40066CCEC /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				1007E8E22A5B15D20066CCEC /* Playground */,
 				1007E8D82A5B02F50066CCEC /* Config */,
 			);
 			path = Screens;
@@ -136,6 +139,14 @@
 				1007E8E02A5B13A20066CCEC /* EnumEmojiSkinTone.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		1007E8E22A5B15D20066CCEC /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				1007E8E32A5B15F00066CCEC /* PlaygroundView.swift */,
+			);
+			path = Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1007E8DC2A5B03840066CCEC /* ConfigView.swift in Sources */,
+				1007E8E42A5B15F00066CCEC /* PlaygroundView.swift in Sources */,
 				1007E8DA2A5B03610066CCEC /* ConfigViewModel.swift in Sources */,
 				1007E8DF2A5B13870066CCEC /* KeyboardTheme.swift in Sources */,
 				1007E8E12A5B13A20066CCEC /* EnumEmojiSkinTone.swift in Sources */,

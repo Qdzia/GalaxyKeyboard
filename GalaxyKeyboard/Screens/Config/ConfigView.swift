@@ -60,7 +60,7 @@ struct ConfigView: View {
     
     private var testKeyboardButton: some View {
         NavigationLink {
-            Text("Testing Keyboard")
+            PlaygroundView()
         } label: {
             cell(color: .blue)
                 .overlay {
