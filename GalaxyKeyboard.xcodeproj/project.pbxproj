@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1007E8B72A5AFF7E0066CCEC /* GalaxyKeyboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8B62A5AFF7E0066CCEC /* GalaxyKeyboardApp.swift */; };
-		1007E8B92A5AFF7E0066CCEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8B82A5AFF7E0066CCEC /* ContentView.swift */; };
 		1007E8BB2A5AFF7F0066CCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1007E8BA2A5AFF7F0066CCEC /* Assets.xcassets */; };
 		1007E8CB2A5B01020066CCEC /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8CA2A5B01020066CCEC /* KeyboardViewController.swift */; };
 		1007E8CF2A5B01020066CCEC /* GalaxyKeyboardExt.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1007E8C82A5B01020066CCEC /* GalaxyKeyboardExt.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1007E8D62A5B01220066CCEC /* FleksySDK in Frameworks */ = {isa = PBXBuildFile; productRef = 1007E8D52A5B01220066CCEC /* FleksySDK */; };
+		1007E8DA2A5B03610066CCEC /* ConfigViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8D92A5B03610066CCEC /* ConfigViewModel.swift */; };
+		1007E8DC2A5B03840066CCEC /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8DB2A5B03840066CCEC /* ConfigView.swift */; };
+		1007E8DF2A5B13870066CCEC /* KeyboardTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8DE2A5B13870066CCEC /* KeyboardTheme.swift */; };
+		1007E8E12A5B13A20066CCEC /* EnumEmojiSkinTone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007E8E02A5B13A20066CCEC /* EnumEmojiSkinTone.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +45,14 @@
 /* Begin PBXFileReference section */
 		1007E8B32A5AFF7E0066CCEC /* GalaxyKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalaxyKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1007E8B62A5AFF7E0066CCEC /* GalaxyKeyboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalaxyKeyboardApp.swift; sourceTree = "<group>"; };
-		1007E8B82A5AFF7E0066CCEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1007E8BA2A5AFF7F0066CCEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1007E8C82A5B01020066CCEC /* GalaxyKeyboardExt.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GalaxyKeyboardExt.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1007E8CA2A5B01020066CCEC /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		1007E8CC2A5B01020066CCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1007E8D92A5B03610066CCEC /* ConfigViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewModel.swift; sourceTree = "<group>"; };
+		1007E8DB2A5B03840066CCEC /* ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigView.swift; sourceTree = "<group>"; };
+		1007E8DE2A5B13870066CCEC /* KeyboardTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardTheme.swift; sourceTree = "<group>"; };
+		1007E8E02A5B13A20066CCEC /* EnumEmojiSkinTone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumEmojiSkinTone.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +95,9 @@
 		1007E8B52A5AFF7E0066CCEC /* GalaxyKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				1007E8DD2A5B137E0066CCEC /* Utils */,
+				1007E8D72A5B02E40066CCEC /* Screens */,
 				1007E8B62A5AFF7E0066CCEC /* GalaxyKeyboardApp.swift */,
-				1007E8B82A5AFF7E0066CCEC /* ContentView.swift */,
 				1007E8BA2A5AFF7F0066CCEC /* Assets.xcassets */,
 			);
 			path = GalaxyKeyboard;
@@ -103,6 +110,32 @@
 				1007E8CC2A5B01020066CCEC /* Info.plist */,
 			);
 			path = GalaxyKeyboardExt;
+			sourceTree = "<group>";
+		};
+		1007E8D72A5B02E40066CCEC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1007E8D82A5B02F50066CCEC /* Config */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1007E8D82A5B02F50066CCEC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1007E8D92A5B03610066CCEC /* ConfigViewModel.swift */,
+				1007E8DB2A5B03840066CCEC /* ConfigView.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		1007E8DD2A5B137E0066CCEC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1007E8DE2A5B13870066CCEC /* KeyboardTheme.swift */,
+				1007E8E02A5B13A20066CCEC /* EnumEmojiSkinTone.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +243,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1007E8B92A5AFF7E0066CCEC /* ContentView.swift in Sources */,
+				1007E8DC2A5B03840066CCEC /* ConfigView.swift in Sources */,
+				1007E8DA2A5B03610066CCEC /* ConfigViewModel.swift in Sources */,
+				1007E8DF2A5B13870066CCEC /* KeyboardTheme.swift in Sources */,
+				1007E8E12A5B13A20066CCEC /* EnumEmojiSkinTone.swift in Sources */,
 				1007E8B72A5AFF7E0066CCEC /* GalaxyKeyboardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
